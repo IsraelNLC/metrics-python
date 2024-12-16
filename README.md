@@ -97,6 +97,6 @@ python app.py
 5. Crie um dashboard:
 
 - Na seção de dashboards, crie um gráfico utilizando a métrica ``http_requests_total``.
-- O dashboard captura quantas vezes houveram requisições no endpoint ``http://localhost:5000`/``.
+- O dashboard captura quantas vezes houveram requisições no endpoint ``http://localhost:5000/``.
 
 Exemplo: ![alt text](./imgs/dashboard.png)
