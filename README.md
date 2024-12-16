@@ -25,6 +25,7 @@ cd metrics-python
 
 2. Ative a venv:
 ```cmd
+python -m venv venv
 venv\Scripts\activate  # ou source venv/bin/activate no Linux
 ```
 
@@ -63,6 +64,9 @@ python app.py
 
     Verifique no navegador: http://localhost:9090
 
+    A interface deve se parecer com:
+    ![alt text](./imgs/prometheus.png)
+
 <hr>
 
 #### 4. Configuração do Grafana
@@ -92,7 +96,7 @@ python app.py
 
 5. Crie um dashboard:
 
-Na seção de dashboards, crie um gráfico utilizando a métrica ``http_requests_total``.
-O dashboard captura quantas vezes houveram requisições no endpoint ``http://localhost:5000`/``.
+- Na seção de dashboards, crie um gráfico utilizando a métrica ``http_requests_total``.
+- O dashboard captura quantas vezes houveram requisições no endpoint ``http://localhost:5000`/``.
 
 Exemplo: ![alt text](./imgs/dashboard.png)
